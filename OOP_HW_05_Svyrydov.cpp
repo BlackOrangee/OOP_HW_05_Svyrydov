@@ -1,4 +1,10 @@
-﻿
+﻿// Develop the String class, which will later be used to work with strings.
+// The class must contain :
+//  ■ A default constructor that allows you to create a string with a length of 80 characters;
+//  ■ Constructor, which allows you to create a string of arbitrary size;
+//  ■ A constructor that creates a stringand initializes it with the string received from the user;
+//  ■ Copy constructor.The class must contain methods for entering strings from the keyboardand outputting strings to the screen.
+//
 
 #include <iostream>
 #include "mystring.h"
