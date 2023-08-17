@@ -17,6 +17,12 @@ public:
 	// Parameterized constructor with existing character array and size
 	mystring(char*, int);
 
+	// Constructor that initializes a mystring object using another mystring object
+	mystring(mystring*);
+
+	// Return the pointer to the character array storing the string
+	char* GetStr();
+
 	// Print the string
 	void Print();
 
@@ -25,12 +31,5 @@ public:
 
 	// Get the number of characters used in the string
 	int GetUsedSize();
-
-	// Concatenate the content of another mystring to this mystring
-	//void Add(mystring);
-
-	// Remove characters from the end of the string, keeping specified length
-	//void Cut(int);
-
 };
 
